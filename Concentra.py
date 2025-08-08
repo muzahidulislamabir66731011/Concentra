@@ -52,7 +52,7 @@ def get_voice_input(prompt_text="Say the alarm time in minutes"):
         return None
 
 def text_alarm():
-    speak_text("Hello! I am Concentra, your study and focus assistant. I’m here to help you stay focused. Please tell me how many minutes you want to set the alarm for. Just say the number. Thank you!")
+    speak_text("Hello! I am Concentra, your study and focus assistant. I am here to help you stay focused. Please tell me how many minutes you want to set the alarm for. Just say the number. Thank you!")
     while True:
         user_input = get_voice_input("Set alarm time in minutes")
         if user_input is None:
@@ -73,4 +73,5 @@ def text_alarm():
 
 if __name__ == "__main__":
     text_alarm()
+
 
