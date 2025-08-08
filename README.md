@@ -29,17 +29,18 @@ This project requires the following Python packages:
 - `gtts` — Google Text-to-Speech, converts text to spoken audio  
 - `pygame` — Plays the audio output  
 - `speech_recognition` — Captures and recognizes your voice input  
-- `word2number` — Converts spoken numbers (words) to numeric values
+- `word2number` — Converts spoken numbers (words) to numeric value
+---
 
 Install all dependencies with:
 
 ```bash
 pip install gtts pygame SpeechRecognition word2number
-
+```
 License
 
-This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
-You can use, share, and modify this project for non-commercial purposes only. See the LICENSE file for details.
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0). You can use, share, and modify this project for non-commercial purposes only. See the LICENSE file for details.
+
 Notes
 
     Make sure your microphone is set up and working correctly.
