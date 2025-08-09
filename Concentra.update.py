@@ -73,7 +73,7 @@ def text_alarm():
         seconds = minutes * 60
         time.sleep(seconds)
 
-        speak_text("Hey, time's up! Do you want to continue with the same timer or stop?")
+        speak_text("Hey, are you studying? I’m just here to remind you — stay focused, you can do it! Do you want to continue with the same timer or stop?")
         speak_text("Say 'stop' to end, or say nothing to continue.")
 
         r = sr.Recognizer()
@@ -109,3 +109,4 @@ def text_alarm():
 
 if __name__ == "__main__":
     text_alarm()
+
